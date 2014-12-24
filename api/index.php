@@ -29,6 +29,7 @@ function getFileMimeType($file) {
 function getExtension($type) {
     $a = [
        'image/png' => 'png',
+       'image/jpeg' => 'jpg',
        'image/jpg' => 'jpg'
     ];
     if (array_key_exists($type, $a)) {
