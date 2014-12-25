@@ -17,6 +17,7 @@ http://hostname/files/549a9a35933cf.png
 
 Configs:
 
+```
 server {
     listen       1.2.3.4:80;
     server_name  hostname;
@@ -44,6 +45,7 @@ server {
  CustomLog /var/log/httpd/hostname-access_log combined
  ErrorLog /var/log/httpd/hostname-error_log
 </VirtualHost>
+```
 
 ========================
 
